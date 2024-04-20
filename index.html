@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Pessoal</title>
+
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/ficheiros bootstrap v5/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./Assets/fontawesome/css/fontawesome-all.css">
+</head>
+<body>
+
+
+
+    <div class="container-fluid" id="container-principal">
+
+        <header class="navbar fixed-top row" id="header">
+
+            <span id="logo" class="col-md-4 col-sm-4 col-xs-12"> <a id="link-logo" href="#">Meu portifólio</a></span>
+            <ul class="navbar-nav col-md-6 col-sm-8 col-xs-12" id="navbar">
+                <li class="nav-item"> <a href="#" class="nav-link link">Início</a> </li>
+                <li class="nav-item"> <a href="#article-skills" class="nav-link link">Habilidades</a> </li>
+                <li class="nav-item"> <a href="#article-projectos" class="nav-link link">Projectos</a> </li>
+                <li class="nav-item"> <a href="#article-servicos" class="nav-link link">Serviços</a> </li>
+            </ul>
+
+
+            <div class="dropdown col-md-2 col-sm-3 col-xs-3">
+                <button id="btn-contactar" type="button" class="btn col-md-12 col-sm-12 col-xs-12 " data-toggle="dropdown" >Contactar</button>
+
+                <nav class="dropdown-menu">
+                    <a href="https://www.facebook.com/mariabumbaeduardo.bumba" class="dropdown-item item-contact">
+                        <i id="facebook-icon" class="fab fa-facebook-f text-primary"></i>Facebook
+                    </a>
+                    <a href="tel:922734785" class="dropdown-item item-contact">
+                        <i id="whatsApp-icon" class="fab fa-whatsapp text-success"></i>99734785
+                    </a>
+                    <a href="tel:922734785" class="dropdown-item item-contact">
+                        <i id="tel-icon" class="fas fa-phone text-primary"></i>LinkedIn
+                    </a>
+                </nav>
+
+            </div>
+
+
+        </header>
+
+
+        <article id="article-presentation" class="col-md-12 row">
+            <section id="content-presentation" class="col-md-7 col-sm-12 col-xs-12">
+                <h1 id="intruduction-text" class="col-md-10 col-sm-8" >
+                    Sou o <span class=""  style="color: rgb(50, 50, 130)">Fernando Eduardo</span> <br>                 
+                </h1 >
+                <h2 id="profission-text" class="col-md-10 col-sm-8">Programador de software</h2>
+
+                <h2 id="marketing-text" class="col-md-10 col-sm-8">
+                    Conheça o Programador ideal <br> para a sua Organização
+                </h2>
+
+                <div class="col-md-10 col-sm-8">
+                    <a id="btn-saberMais" type="button" class="btn btn-primary col-md-4 col-sm-4" href="#btn-saberMais">Saber mais</a>
+                </div>
+            </section>
+
+
+
+            <section id="image-presentation" class="col-md-5 col-sm-12">
+                <img src="./Assets/images/image-portifolio4.png" id="img" class="col-md-10 col-sm-8 " alt="imagem-apresentacao"></img>
+            </section>
+
+        </article>
+
+        <article id="article-identity" class="col-md-12 row">
+            <span id="span-minhaIdentidade" class="col-md-12 col-sm-12 " >Minha identidade</span>
+            <section class="col-md-4 col-sm-12 section-identity">
+                <span>Nome: Fernando Eduardo</span>
+                <span>Email: afonsof023@gmail.com</span>
+                <span>Endereço: Angola/Luanda</span>
+            </section>
+            <section class="col-md-4 col-sm-12 section-identity">
+                <span>Formação: Técnico de Informática(frequentando)</span>
+                <span>Profissão: Freelancer</span>
+                <span>Objectivo: Resolver problemas com a programação</span>
+            </section>
+            <div class="col-md-4 col-sm-12" style="display: flex;align-items: flex-start">
+                <a id="btn-baixarCV" type="application/pdf" class="btn col-md-6 col-sm-4" href="./Assets/images/CV_FernandoEduardo.pdf" download="./Assets/images/CV_FernandoEduardo.pdf" >Baixar CV</a>
+            </div>
+        </article>
+
+
+        <article id="article-skills" class="col-md-12 row">
+            <span id="span-minhasHabilidades" class="col-md-12 col-sm-12  text-center">Habilidades</span>
+            <section id="image-skills" class="col-md-4 col-sm-12 col-xs-12">
+                <img src="./Assets/images/portifolio3.png" id="img2" class="col-md-10 col-sm-8 " alt="imagem-habilidades"></img>
+            </section>
+
+            <div class="col-md-8 col-sm-12 col-xs-12 row" style="row-gap: 2vh;">
+
+                <section class="col-md-6 col-sm-12 col-xs-12 section-habilidade">
+                    <span class="col-md-4 col-sm-12 div-area"><i class="fas fa-chart-pie"> </i>Desenvolvimento Front-end</span>
+                    <div class="div-percentagem col-md-12 col-sm-12 col-xs-12">
+                        <div class="percentagem" id="percentagem1"><span>70%</span></div>
+                    </div>
+                    <div class="div-linguagens dropdown btn-group col-md-5" >
+                        <span class="span-linguagens">Tecnologias</span>
+                        <button id="btn-linguagens" class="btn btn-outline-default dropdown-toggle" data-toggle="dropdown"></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header" id="titulo-dropdown" > Linguagens</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> HTML</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> CSS</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Javascript</li>
+                            <li class="dropdown-divider" ></li>
+                            <li class="dropdown-header" id="titulo-dropdown"> Frameworks e bibliotecas</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Bootstrap</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> React Native</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-6 col-sm-12 col-xs-12 section-habilidade">
+                    <span class="col-md-4 col-sm-12 div-area"><i class="fas fa-code"> </i>Desenvolvimento Back-end </span>
+                    <div class="div-percentagem col-md-12">
+                        <div class="percentagem" id="percentagem2"><span>60%</span></div>
+                    </div>
+                    <div class="div-linguagens dropdown btn-group col-md-5" >
+                        <span class="span-linguagens">Tecnologias</span>
+                        <button id="btn-linguagens" class="btn btn-outline-default dropdown-toggle" data-toggle="dropdown"></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header" id="titulo-dropdown" > Linguagens e ambiente</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> PHP</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> C#</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Node JS</li>
+                            <li class="dropdown-divider" ></li>
+                            <li class="dropdown-header" id="titulo-dropdown"> Frameworks e bibliotecas</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> JQuery</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Express Js</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-6 col-sm-12 col-xs-12 section-habilidade">
+                    <span class="col-md-4 col-sm-12 div-area"><i class="fas fa-server"></i>Base de dados </span>
+                    <div class="div-percentagem col-md-12">
+                        <div class="percentagem" id="percentagem3"><span>85%</span></div>
+                    </div>
+                    <div class="div-linguagens dropdown btn-group col-md-5" >
+                        <span class="span-linguagens">Tecnologias</span>
+                        <button id="btn-linguagens" class="btn btn-outline-default dropdown-toggle" data-toggle="dropdown"></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header" id="titulo-dropdown" > Gerenciadores</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> MySql</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Oracle</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Maria DB</li>
+                            <li class="dropdown-divider" ></li>
+                            <li class="dropdown-header" id="titulo-dropdown"> Linguagem</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Sql</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-6 col-sm-12 col-xs-12 section-habilidade">
+                    <span class="col-md-4 col-sm-12 div-area"><i class="fas fa-mobile-alt"> </i>Desenvolvimento Mobile </span>
+                    <div class="div-percentagem col-md-12">
+                        <div class="percentagem" id="percentagem4"><span>50%</span></div>
+                    </div>
+                    <div class="div-linguagens dropdown btn-group col-md-5" >
+                        <span class="span-linguagens">Tecnologias</span>
+                        <button id="btn-linguagens" class="btn btn-outline-default dropdown-toggle" data-toggle="dropdown"></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header" id="titulo-dropdown" >Linguagens</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Javascript</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> C#</li>
+                            <li class="dropdown-divider" ></li>
+                            <li class="dropdown-header" id="titulo-dropdown"> Frameworks e bibliotecas</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> React Native</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-6 col-sm-12 col-xs-12 section-habilidade">
+                    <span class="col-md-4 col-sm-12 div-area"><i class="fab fa-microsoft"> </i>.Net - windows forms </span>
+                    <div class="div-percentagem col-md-12">
+                        <div class="percentagem" id="percentagem5"><span>65%</span></div>
+                    </div>
+                    <div class="div-linguagens dropdown btn-group col-md-5" >
+                        <span class="span-linguagens">Tecnologias</span>
+                        <button id="btn-linguagens" class="btn btn-outline-default dropdown-toggle" data-toggle="dropdown"></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header" id="titulo-dropdown"> Linguagens</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> C#</li>
+                            <li class="dropdown-divider" ></li>
+                            <li class="dropdown-header" id="titulo-dropdown"> Namespace</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Windows forms application </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-6 col-sm-12 col-xs-12 section-habilidade">
+                    <span class="col-md-4 col-sm-12 div-area"><i class="fas fa-globe"> </i>Asp net mvc core </span>
+                    <div class="div-percentagem col-md-12">
+                        <div class="percentagem" id="percentagem6"><span>70%</span></div>
+                    </div>
+                    <div class="div-linguagens dropdown btn-group col-md-5" >
+                        <span class="span-linguagens">Tecnologias</span>
+                        <button id="btn-linguagens" class="btn btn-outline-default dropdown-toggle" data-toggle="dropdown"></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header" id="titulo-dropdown" > Linguagens</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> HTML</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> CSS</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Javascript</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> C#</li>
+                            <li class="dropdown-divider" ></li>
+                            <li class="dropdown-header" id="titulo-dropdown"> Frameworks e bibliotecas</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Razor</li>
+                            <li class="dropdown-item" id="conteudo-dropdown"> Bootstrap</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="div-gostou">Gostou de mim?</div>
+                    <div id="div-classificacao">
+                        <i class="estrela fas fa-star"></i>
+                        <i class="estrela fas fa-star"></i>
+                        <i class="estrela fas fa-star"></i>
+                        <i class="estrela fas fa-star"></i>
+                        <i class="estrela fas fa-star"></i>
+                    </div>
+                </section>
+
+                <div class="col-md-6 col-sm-12" style="display: flex;align-items: flex-start">
+                    <button id="btn-contratar" type="button" class="btn btn-primary col-md-6 col-sm-4"  data-toggle="modal" data-target="#modal2">Contratar</button>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article id="article-projectos" class="col-md-12 row">
+            <span id="span-minhasProjectos" class="col-md-12 col-sm-12  text-center">Projectos</span>
+            
+            <div class="col-md-12 col-sm-12 col-xs-12 row div-cards">
+                <section class="col-md-3 col-sm-6 col-xs-12 card-projecto ">
+                    <div class="card-projecto-header">
+                        <!-- <img class="img-projecto" src="../Assets/images/images (5).jpeg" alt="imagem-projecto"> -->
+                        <div id="img-projecto1" class="img-projecto"></div>
+                    </div>
+                    <div class="card-projecto-content">
+                        <span class="card-projecto-title">E-commerce de produtos e serviços</span>
+                        <div class="card-projecto-descricao">
+                            Loja virtual, direccionado a empreendedores
+                        </div>
+
+                        <div class="card-projecto-btns row">
+                            <button id="btn-solicitar" type="button" class="btn-solicitar btn btn-primary col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                            <button id="btn-detalhes" type="button" class="btn-detalhes btn btn-outline-primary col-md-5 col-sm-4">Detalhes</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-md-3 col-sm-6 col-xs-12 card-projecto ">
+                    <div class="card-projecto-header">
+                        <!-- <img class="img-projecto" src="../Assets/images/images (5).jpeg" alt="imagem-projecto"> -->
+                        <div id="img-projecto2" class="img-projecto"></div>
+                    </div>
+                    <div class="card-projecto-content">
+                        <span class="card-projecto-title">Gestão de Listas de Presença</span>
+                        <div class="card-projecto-descricao">
+                            Software de aplicação, direccionado a professoes
+                        </div>
+
+                        <div class="card-projecto-btns row">
+                            <button id="btn-solicitar" type="button" class="btn-solicitar btn btn-primary col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                            <button id="btn-detalhes" type="button" class="btn-detalhes btn btn-outline-primary col-md-5 col-sm-4">Detalhes</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-md-3 col-sm-6 col-xs-12 card-projecto ">
+                    <div class="card-projecto-header">
+                        <!-- <img class="img-projecto" src="../Assets/images/images (5).jpeg" alt="imagem-projecto"> -->
+                        <div id="img-projecto3" class="img-projecto"></div>
+                    </div>
+                    <div class="card-projecto-content">
+                        <span class="card-projecto-title">Portifólio entidade individual</span>
+                        <div class="card-projecto-descricao">
+                            CV virtual, direccionado a entidades individuais
+                        </div>
+
+                        <div class="card-projecto-btns row">
+                            <button id="btn-solicitar" type="button" class="btn-solicitar btn btn-primary col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                            <button id="btn-detalhes" type="button" class="btn-detalhes btn btn-outline-primary col-md-5 col-sm-4">Detalhes</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="col-md-3 col-sm-6 col-xs-12 card-projecto ">
+                    <div class="card-projecto-header">
+                        <!-- <img class="img-projecto" src="../Assets/images/images (5).jpeg" alt="imagem-projecto"> -->
+                        <div id="img-projecto4" class="img-projecto"></div>
+                    </div>
+                    <div class="card-projecto-content">
+                        <span class="card-projecto-title">Gestão de Congregações JW</span>
+                        <div class="card-projecto-descricao">
+                            Software de aplicação, direccionado às Testemunhas de Jeová
+                        </div>
+
+                        <div class="card-projecto-btns row">
+                            <button id="btn-solicitar" type="button" class="btn-solicitar btn btn-primary col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                            <button  id="btn-detalhes" type="button" class="btn-detalhes btn btn-outline-primary col-md-5 col-sm-4">Detalhes</button>
+                        </div>
+                    </div>
+                </section>
+
+                
+   
+            </div>
+        </article>
+
+        <article id="article-servicos" class="col-md-12 row">
+            <span id="span-meusServicos" class="col-md-12 col-sm-12  text-center">Serviços</span>
+            
+            <div class="col-md-12 col-sm-12 col-xs-12 row div-cards">
+                <section class="col-md-4 col-sm-12 col-xs-12 card-servico">
+                    <div class="card-servico-header">
+                        <span class="card-servico-title">Desenvolvimento de softwares</span>
+                        <ul class="card-servico-lista">
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Sistemas de gestão</li>
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Websites empresariais / pessoais</li>
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>E-commerce</li>
+                        </ul>
+                    </div>
+                    <div class="card-servico-content">
+                        <ul class="card-servico-lista">
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Multiplataforma</li>
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Moderno</li>
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Responsivo</li>
+                            <button id="btn-solicitarServico" type="button" class="btn-solicitar btn btn-success col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-4 col-sm-12 col-xs-12 card-servico">
+                    <div class="card-servico-header">
+                        <span class="card-servico-title">Criação de banco de dados</span>
+                        <ul class="card-servico-lista">
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>MySql</li>
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Oracle</li>
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Maria DB</li>
+                        </ul>
+                    </div>
+                    <div class="card-servico-content">
+                        <ul class="card-servico-lista">
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Projectado</li>
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Seguro</li>
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Normalizado</li>
+                            <button id="btn-solicitarServico" type="button" class="btn-solicitar btn btn-success col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="col-md-4 col-sm-12 col-xs-12 card-servico">
+                    <div class="card-servico-header">
+                        <span class="card-servico-title">Serviço de desenvolvedor</span>
+                        <ul class="card-servico-lista">
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Full-stack</li>
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Desktop</li>
+                            <li class="card-servico-item1"><i class="fab fa-patreon"></i>Mobile</li>
+                        </ul>
+                    </div>
+                    <div class="card-servico-content">
+                        <ul class="card-servico-lista">
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Responsável</li>
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Rápido</li>
+                            <li class="card-servico-item"><i class=" fas fa-check"></i>Eficaz</li>
+                            <button id="btn-solicitarServico" type="button" class="btn-solicitar btn btn-success col-md-5 col-sm-4" data-toggle="modal" data-target="#modal1">Solicitar</button>
+                        </ul>
+                    </div>
+                </section>
+
+            
+
+               
+   
+            </div>
+        </article>
+
+
+        <article id="article-footer" class="col-md-12 row">
+            <section class="col-md-4 col-sm-12 section-footer">
+                <span id="logo2" class="col-md-4 col-sm-4 col-xs-12"> <a id="link-logo" href="#">Meu portifólio</a></span>
+                <h3 class=""  style="color: rgb(50, 50, 130);filter: brightness(150%);margin-top: 1rem;">Fernando Eduardo</h3>
+             </section>
+            <section class="col-md-4 col-sm-12 section-footer">
+               <h4 class="span-footer-title">Contactos</h4>
+               <div class="div-footer-contactos">
+                    <a href="https://www.facebook.com/mariabumbaeduardo.bumba"><i class="fab fa-facebook-f text-primary"></i></a>
+                    <a href="tel:922734785"><i class="fab fa-whatsapp text-success"></i></a>
+                    <a href="tel:922734785"><i class="fas fa-phone text-primary"></i></a>
+               </div>
+            </section>
+            <section class="col-md-4 col-sm-12 section-footer">
+                <h4 class="span-footer-title">Sobre o site</h4>
+               <div class="div-footer-site">
+                    <span style="display: block;font-size: 2.5vh;">Desenvolvido pela Dev Solution</span>
+                    <span style="font-size: 2.2vh;">Todos os direitos são reservados</span>
+               </div>
+            </section>
+          
+        </article>
+
+    
+        
+
+
+
+
+
+    </div>
+
+
+
+
+    <div id="modal1" class="modal fade" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="display: flex;justify-content: center;">
+            <div class="modal-content" id="modal-conteudo">
+                <section class="modal-header">
+                    <h4 class="modal-title text-success">Solicitação</h4>
+                    <button type="button" class="close" data-dismiss="modal" style="font-size: 2.5vh;padding:0.1vh 1vh;border:none;color: red;background-color: #fff;">x</button>
+                </section>
+                <section class="modal-body">
+                    <h5>Obrigado pela preferência!! <br> Utilize um dos contactos exibidos do rodapé</h5>
+                </section>
+                <section class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color: var(--complementary-blue-color);">Ok</button>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal fade" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="display: flex;justify-content: center;">
+            <div class="modal-content" id="modal-conteudo">
+                <section class="modal-header">
+                    <h4 class="modal-title text-success">Contratação</h4>
+                    <button type="button" class="close" data-dismiss="modal" style="font-size: 2.5vh;padding:0.1vh 1vh;border:none;color: red;background-color: #fff;">x</button>
+                </section>
+                <section class="modal-body">
+                    <h5>Obrigado pela preferência!! <br> Utilize um dos contactos exibidos do rodapé</h5>
+                </section>
+                <section class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal" style="background-color: var(--complementary-blue-color);">Ok</button>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./Assets/Javasript/script.js"></script>
+    <script src="./Assets/ficheiros bootstrap v5/jquery-3.3.1.min.js"></script>
+    <script src="./Assets/ficheiros bootstrap v5/bootstrap.bundle.js"></script>
+</body>
+</html>
