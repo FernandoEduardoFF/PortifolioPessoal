@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Pessoal</title>
+    <title>Portifolio pessoal</title>
 
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="stylesheet" href="./Assets/ficheiros bootstrap v5/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/ficheiros bootstrap v5/bootstrap.min.css">
 
-    <link rel="stylesheet" href="./Assets/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="Assets/fontawesome/css/fontawesome-all.css">
 </head>
 <body>
 
@@ -18,7 +18,12 @@
 
         <header class="navbar fixed-top row" id="header">
 
-            <span id="logo" class="col-md-4 col-sm-4 col-xs-12"> <a id="link-logo" href="#">Meu portifólio</a></span>
+            <div id="logo" class="col-md-3 col-sm-12 col-xs-12"> <a id="link-logo" href="#">Meu portifólio</a>
+                <span id="menu-hamburguer" class="col-md-0 col-sm-4 col-xs-4 esconder-menu ">
+                    <i class="fas fa-bars " style="color: #fff;" ></i>
+                </span>
+            </div>
+                        
             <ul class="navbar-nav col-md-6 col-sm-8 col-xs-12" id="navbar">
                 <li class="nav-item"> <a href="#" class="nav-link link">Início</a> </li>
                 <li class="nav-item"> <a href="#article-skills" class="nav-link link">Habilidades</a> </li>
@@ -27,8 +32,8 @@
             </ul>
 
 
-            <div class="dropdown col-md-2 col-sm-3 col-xs-3">
-                <button id="btn-contactar" type="button" class="btn col-md-12 col-sm-12 col-xs-12 " data-toggle="dropdown" >Contactar</button>
+            <div class="dropdown col-md-2 col-sm-3 col-xs-3" id="dropdownContactar">
+                <button id="btn-contactar" type="button" class="btn col-md-12 col-sm-4 col-xs-4 " data-toggle="dropdown" >Contactar</button>
 
                 <nav class="dropdown-menu">
                     <a href="https://www.facebook.com/mariabumbaeduardo.bumba" class="dropdown-item item-contact">
@@ -67,7 +72,7 @@
 
 
             <section id="image-presentation" class="col-md-5 col-sm-12">
-                <img src="./Assets/images/image-portifolio4.png" id="img" class="col-md-10 col-sm-8 " alt="imagem-apresentacao"></img>
+                <img src="Assets/images/image-portifolio4.png" id="img" class="col-md-10 col-sm-8 " alt="imagem-apresentacao"></img>
             </section>
 
         </article>
@@ -85,7 +90,7 @@
                 <span>Objectivo: Resolver problemas com a programação</span>
             </section>
             <div class="col-md-4 col-sm-12" style="display: flex;align-items: flex-start">
-                <a id="btn-baixarCV" type="application/pdf" class="btn col-md-6 col-sm-4" href="./Assets/images/CV_FernandoEduardo.pdf" download="./Assets/images/CV_FernandoEduardo.pdf" >Baixar CV</a>
+                <a id="btn-baixarCV" type="application/pdf" class="btn col-md-6 col-sm-4" href="../Assets/images/CV_FernandoEduardo.pdf" download="../Assets/images/CV_FernandoEduardo.pdf" >Baixar CV</a>
             </div>
         </article>
 
@@ -93,7 +98,7 @@
         <article id="article-skills" class="col-md-12 row">
             <span id="span-minhasHabilidades" class="col-md-12 col-sm-12  text-center">Habilidades</span>
             <section id="image-skills" class="col-md-4 col-sm-12 col-xs-12">
-                <img src="./Assets/images/portifolio3.png" id="img2" class="col-md-10 col-sm-8 " alt="imagem-habilidades"></img>
+                <img src="Assets/images/portifolio3.png" id="img2" class="col-md-10 col-sm-8 " alt="imagem-habilidades"></img>
             </section>
 
             <div class="col-md-8 col-sm-12 col-xs-12 row" style="row-gap: 2vh;">
@@ -461,8 +466,8 @@
 
 
 
-    <script src="./Assets/Javasript/script.js"></script>
-    <script src="./Assets/ficheiros bootstrap v5/jquery-3.3.1.min.js"></script>
-    <script src="./Assets/ficheiros bootstrap v5/bootstrap.bundle.js"></script>
+    <script src="Assets/Javasript/script.js"></script>
+    <script src="Assets/ficheiros bootstrap v5/jquery-3.3.1.min.js"></script>
+    <script src="Assets/ficheiros bootstrap v5/bootstrap.bundle.js"></script>
 </body>
 </html>

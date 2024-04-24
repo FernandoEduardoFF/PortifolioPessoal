@@ -1,3 +1,38 @@
+//exibir menu hamburguer
+
+let menuHamburguer= document.getElementById("menu-hamburguer")
+let navbar=document.getElementById("navbar")
+let dropdownContactar=document.getElementById("dropdownContactar")
+let imagePresentation=document.getElementById("image-presentation")
+
+let n=0
+menuHamburguer.onclick=function () {
+    n++
+    if (n%2!=0) {
+        navbar.style.height="100%"
+        navbar.style.transition="0.5s"
+        navbar.style.opacity="1"
+
+        dropdownContactar.style.height="100%"
+        dropdownContactar.style.transition="0.5s"
+        dropdownContactar.style.opacity="1"
+
+        imagePresentation.style.marginTop="200px"
+    }else{
+        navbar.style.height="1px"
+        navbar.style.transition="0.5s"
+        navbar.style.opacity="0"
+
+        dropdownContactar.style.height="1px"
+        dropdownContactar.style.transition="0.5s"
+        dropdownContactar.style.opacity="0"
+
+        imagePresentation.style.marginTop="-70px"
+
+    }
+    
+}
+
 
 //efeitos nas estrelas quando clicado
 
